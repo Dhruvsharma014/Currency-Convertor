@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h2>Currency-Converter</h2>
+            <div class="amount">
+                <p>Enter Amount:</p>
+                <input value="1" type="text">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>from</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" />
+                        <select name="from" id="from">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="INR">INR</option>
+                        </select>
+                    </div>
+                </div>
+                <i class="ri-exchange-cny-fill"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png" />
+                        <select name="to" id="to">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="INR">INR</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button>Get Exchange Rate</button>
+            <div class="get">
+                <p>You Get:</p>
+                <input value="" type="text">
+            </div>
+        </form>
+    </div>
+    <script src="code.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- write html,css for Currency-Converter for best outlook -->
